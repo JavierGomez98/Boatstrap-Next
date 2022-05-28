@@ -1,0 +1,126 @@
+:root {
+  --primary-font-family: 'Poppins';
+
+  --shadow-light-100: 0px 4px 4px #E6E6E6;
+  --shadow-light-80: 0px 4px 4px rgba(230, 230, 230, 0.8);
+  --shadow-light-60: 0px 4px 4px rgba(230, 230, 230, 0.6);
+  --shadow-light-40: 0px 4px 4px rgba(230, 230, 230, 0.4);
+  --shadow-light-20: 0px 4px 4px rgba(230, 230, 230, 0.2);
+
+  --primary: #733FE7;
+  --primary-color: #733FE7;
+  --primary-color-80: #8F65EC;
+  --primary-color-60: #AB8CF1;
+  --primary-color-20: #DED4F5;
+  --primary-color-15: #F8F4FF;
+  --secondary: #EDCF4E;
+  --secondary-color: #EDCF4E;
+  --secondary-color-80: #F1D971;
+  --secondary-color-60: #F4E295;
+  --primary-dark: #051B5F;
+  --primary-dark-color: #051B5F;
+  --primary-dark-color-80: #37288E;
+  --primary-dark-color-60: #877EBB;
+  --primary-dark-color-15: #D9E2F4;
+  --success: #0E8428;
+  --success-color: #0E8428;
+  --success-color-80: #3E9D53;
+  --success-color-60: #6EB57E;
+  --info: #006EF0;
+  --info-color: #006EF0;
+  --info-color-80: #338BF3;
+  --info-color-60: #66A8F6;
+  --info-color-15: #D9E9FD;
+  --warning: #FFC108;
+  --warning-color: #FFC108;
+  --warning-color-80: #FFCD39;
+  --warning-color-60: #FFE188;
+  --warning-color-15: #FFF6DA;
+  --error: #DD2122;
+  --error-color: #DD2122;
+  --error-color-80: #FF3433;
+  --error-color-60: #FF6766;
+  --error-color-15: #FFD9D9;
+  --neutral-100: #050505;
+  --neutral-70: #484848;
+  --neutral-50: #737373;
+  --neutral-25: #C1C1C1;
+  --neutral-10: #E6E6E6;
+  --neutral-05: #F2F2F2;
+  --neutral-00: #FFFFFF;
+}
+
+$primary-font-family: 'Poppins';
+
+// Shadows
+$shadow-light-100: 0px 4px 4px #E6E6E6;
+$shadow-light-80: 0px 4px 4px rgba(230, 230, 230, 0.8);
+$shadow-light-60: 0px 4px 4px rgba(230, 230, 230, 0.6);
+$shadow-light-40: 0px 4px 4px rgba(230, 230, 230, 0.4);
+$shadow-light-20: 0px 4px 4px rgba(230, 230, 230, 0.2);
+
+// Colors
+
+// neutral-color-variables
+$neutral-100: #050505;
+$neutral-70: #484848;
+$neutral-50: #737373;
+$neutral-25: #C1C1C1;
+$neutral-10: #E6E6E6;
+$neutral-05: #F2F2F2;
+$neutral-00: #FFFFFF;
+
+// color-variables
+$primary: #733FE7;
+$secondary: #FFC319;
+$primary-dark: #051B5F;
+$success: #0E8428;
+$info: #006EF0;
+// $warning: #FFC108;
+$warning: #FF8514;
+$error: #DD2122;
+
+// color variants
+$primary-05: tint-color($primary, 95%);
+$primary-15: tint-color($primary, 85%);
+$primary-20: tint-color($primary, 80%);
+$primary-60: tint-color($primary, 40%);
+$primary-80: tint-color($primary, 20%);
+$primary-100: $primary;
+
+$secondary-15: tint-color($secondary, 85%);
+$secondary-60: tint-color($secondary, 40%);
+$secondary-80: tint-color($secondary, 20%);
+$secondary-100: $secondary;
+
+$primary-dark-15: tint-color($primary-dark, 85%);
+$primary-dark-60: tint-color($primary-dark, 40%);
+$primary-dark-80: tint-color($primary-dark, 20%);
+$primary-dark-100: $primary-dark;
+
+$success-60: tint-color($success, 40%);
+$success-80: tint-color($success, 20%);
+$success-100: $success;
+
+$info-15: tint-color($info, 85%);
+$info-60: tint-color($info, 40%);
+$info-80: tint-color($info, 20%);
+$info-100: $info;
+$info-120: shade-color($info, 20%) !default;
+$info-140: shade-color($info, 40%) !default;
+$info-160: shade-color($info, 60%) !default;
+$info-180: shade-color($info, 80%) !default;
+
+$warning-15: tint-color($warning, 85%);
+$warning-60: tint-color($warning, 40%);
+$warning-80: tint-color($warning, 20%);
+$warning-100: $warning;
+$warning-120: shade-color($warning, 20%) !default;
+$warning-140: shade-color($warning, 40%) !default;
+$warning-160: shade-color($warning, 60%) !default;
+$warning-180: shade-color($warning, 80%) !default;
+
+$error-15: tint-color($error, 85%);
+$error-60: tint-color($error, 40%);
+$error-80: tint-color($error, 20%);
+$error-100: $error;

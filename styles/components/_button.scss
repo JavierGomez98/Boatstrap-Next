@@ -1,0 +1,165 @@
+.button {
+  @extend .flex-center !optional;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  height: fit-content;
+  padding: 6px 12px;
+  text-align: center;
+  background-color: #fff0;
+  cursor: pointer;
+
+  &-lg {
+    font-size: 16px;
+    padding: 12px 18px;
+  }
+
+  &-primary,
+  &-rounded.primary {
+    background-color: $primary-100;
+    color: $neutral-00;
+
+    &.button-sm {
+      background-color: $primary-dark-80;
+    }
+
+    &:hover {
+      background-color: $primary-dark-100;
+    }
+  }
+
+  &-secondary,
+  &-negative,
+  &-dashed,
+  &-rounded.secondary {
+    color: $primary-100;
+    border: 1px solid $primary-100;
+
+    &:hover {
+      background-color: $primary-60;
+      border: 1px solid $primary-60;
+      color: $neutral-00;
+    }
+
+    &:focus {
+      border: 2px solid $primary-60 !important;
+    }
+  }
+
+  &-negative {
+    border: 2px solid transparent;
+  }
+
+  &-dashed {
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: normal;
+    border-style: dashed;
+    border-radius: 12px;
+    padding: 18px 12px;
+    min-width: 125px;
+    text-align: center;
+    text-align: -webkit-center;
+
+    &:hover {
+      background-color: $primary-15;
+      color: $primary-100 !important;
+    }
+
+    & svg, img {
+      display: block;
+      font-size: 20px;
+      margin-left: 0px;
+      margin-bottom: 10px;
+    }
+
+    &.button-sm {
+      border-radius: 12px;
+      padding: 12px;
+
+      & svg, img {
+        display: unset;
+        margin-bottom: unset;
+        margin-right: 14.5px;
+      }
+
+      & span {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  &-sm {
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 4.5px 21px;
+  }
+
+  &-rounded {
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    padding: 9px;
+    border-radius: 50px;
+
+    &:disabled {
+      background-color: $neutral-00;
+      color: $neutral-50;
+      border: 1px solid $neutral-50;
+      cursor: default;
+    }
+  }
+
+  &-rounded.error {
+    background-color: $neutral-00;
+    color: $error-100;
+    border: unset;
+
+    &:hover:enabled {
+      background-color: $error-100;
+      color: $neutral-00;
+    }
+
+    &:focus {
+      background-color: $error-100;
+      color: $neutral-00;
+      border: unset !important;
+    }
+  }
+
+  &-rounded.neutral {
+    background-color: $neutral-00;
+    color: $neutral-70;
+    border: unset;
+
+    &:hover {
+      background-color: $neutral-10 !important;
+      color: $neutral-70 !important;
+    }
+
+    &:focus {
+      border: 2px solid $neutral-25 !important;
+    }
+  }
+
+  &:disabled {
+    opacity: 0.40;
+    cursor: default;
+  }
+
+  &:focus {
+    border: 2px solid $primary-60 !important;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+a.button:hover {
+  color: $neutral-00;
+  text-decoration: none !important;
+}

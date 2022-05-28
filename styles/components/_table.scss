@@ -1,0 +1,22 @@
+table {
+    th, td {
+        border: unset !important;
+        vertical-align: middle !important;
+        padding: 7px 12px !important;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: $neutral-70;
+    }
+
+    thead th {
+        background-color: rgba(242, 242, 242, 0.6);
+        font-weight: bold;
+        font-size: 16px;
+        color: $primary-dark-100;
+    }
+
+    tbody tr {
+        border-bottom: 1px solid $neutral-10;
+    }
+}

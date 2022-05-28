@@ -1,0 +1,21 @@
+.code {
+    @extend .rounded, .bg-neutral-10, .p-4;
+
+    & code {
+        @extend .d-block, .primary-dark-100;
+
+        & em {
+            color: $info-80;
+            font-style: normal;
+        }
+
+        & i {
+            color: $error-100;
+            font-style: normal;
+        }
+
+        .b {
+            color: $primary-100;
+        }
+    }
+}

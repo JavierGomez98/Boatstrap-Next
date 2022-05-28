@@ -1,0 +1,23 @@
+.header {
+  padding: 15px 28px;
+}
+
+.link-header {
+  font-size: 1rem;
+  font-weight: bold;
+
+  & h6 {
+    padding: 5px;
+    width: max-content;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    &:hover {
+      color: #050505;
+      background-color: #C1C1C1;
+    }
+  }
+
+  &.not-collapsed h6 {
+    color: #484848;
+  }
+}

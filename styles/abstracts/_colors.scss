@@ -1,0 +1,109 @@
+.bg-primary-100 { color: $neutral-00; background-color: $primary-100; }
+.bg-primary-80 { color: $neutral-00; background-color: $primary-80; }
+.bg-primary-60 { color: $neutral-00; background-color: $primary-60; }
+.bg-primary-15 { color: $primary-100; background-color: $primary-15; }
+.bg-primary-05 { color: $primary-100; background-color: $primary-05; }
+
+.primary-100 { color: $primary-100; }
+.primary-80 { color: $primary-80; }
+.primary-60 { color: $primary-60; }
+.primary-15 { color: $primary-15; }
+.primary-05 { color: $primary-05; }
+
+.bg-secondary-100 { color: $primary-dark-100; background-color: $secondary-100; }
+.bg-secondary-80 { color: $primary-dark-100; background-color: $secondary-80; }
+.bg-secondary-60 { color: $primary-dark-100; background-color: $secondary-60; }
+
+.secondary-100 { color: $secondary-100; }
+.secondary-80 { color: $secondary-80; }
+.secondary-60 { color: $secondary-60; }
+.secondary-15 { color: $secondary-15; }
+
+.bg-primary-dark-100 { color: $neutral-00; background-color: $primary-dark-100; }
+.bg-primary-dark-80 { color: $neutral-00; background-color: $primary-dark-80; }
+.bg-primary-dark-60 { color: $neutral-00; background-color: $primary-dark-60; }
+.bg-primary-dark-15 { color: $primary-dark-100; background-color: $primary-dark-15; }
+
+.primary-dark-100 { color: $primary-dark-100; }
+.primary-dark-80 { color: $primary-dark-80; }
+.primary-dark-60 { color: $primary-dark-60; }
+.primary-dark-15 { color: $primary-dark-15; }
+
+.bg-success-100 { color: $neutral-00; background-color: $success-100; }
+.bg-success-80 { color: $neutral-00; background-color: $success-80; }
+.bg-success-60 { color: $neutral-00; background-color: $success-60; }
+
+.success-100 { color: $success-100; }
+.success-80 { color: $success-80; }
+.success-60 { color: $success-60; }
+
+.bg-info-100 { color: $neutral-00; background-color: $info-100; }
+.bg-info-80 { color: $neutral-00; background-color: $info-80; }
+.bg-info-60 { color: $neutral-00; background-color: $info-60; }
+.bg-info-15 { color: $info-100; background-color: $info-15; }
+
+.info-100 { color: $info-100; }
+.info-80 { color: $info-80; }
+.info-60 { color: $info-60; }
+.info-15 { color: $info-15; }
+
+.bg-warning-100 { color: $neutral-70; background-color: $warning-100; }
+.bg-warning-80 { color: $neutral-70; background-color: $warning-80; }
+.bg-warning-60 { color: $neutral-70; background-color: $warning-60; }
+.bg-warning-15 { color: $neutral-70; background-color: $warning-15; }
+
+.warning-100 { color: $warning-100; }
+.warning-80 { color: $warning-80; }
+.warning-60 { color: $warning-60; }
+.warning-15 { color: $warning-15; }
+
+.bg-error-100 { color: $neutral-00; background-color: $error-100; }
+.bg-error-80 { color: $neutral-00; background-color: $error-80; }
+.bg-error-60 { color: $neutral-70; background-color: $error-60; }
+.bg-error-15 { color: $neutral-70; background-color: $error-15; }
+
+.error-100 { color: $error-100; }
+.error-80 { color: $error-80; }
+.error-60 { color: $error-60; }
+.error-15 { color: $error-15; }
+
+.bg-neutral-100 { color: $neutral-00; background-color: $neutral-100 !important; }
+.bg-neutral-70 { color: $neutral-00; background-color: $neutral-70 !important; }
+.bg-neutral-50 { color: $neutral-00; background-color: $neutral-50 !important; }
+.bg-neutral-25 { color: $primary-dark-100; background-color: $neutral-25 !important; }
+.bg-neutral-10 { color: $primary-dark-100; background-color: $neutral-10 !important; }
+.bg-neutral-05 { color: $primary-dark-100; background-color: $neutral-05 !important; }
+.bg-neutral-00 { color: $primary-dark-100; background-color: $neutral-00 !important; }
+
+.neutral-100 { color: $neutral-100; }
+.neutral-70 { color: $neutral-70; }
+.neutral-50 { color: $neutral-50; }
+.neutral-25 { color: $neutral-25; }
+.neutral-10 { color: $neutral-10; }
+.neutral-05 { color: $neutral-05; }
+.neutral-00 { color: $neutral-00; }
+
+
+.color-warning {
+  color: $warning;
+}
+
+.color-success {
+  color: $success;
+}
+
+.color-error {
+  color: $error;
+}
+
+.color-default {
+  color: $neutral-50;
+}
+
+.color-gray {
+  color: $neutral-70 !important;
+}
+
+.color-main-blue {
+  color: #007BFF !important;
+}

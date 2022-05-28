@@ -1,0 +1,62 @@
+.badge {
+    padding: 4px 8px;
+    line-height: 18px;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 4px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+    &-sm {
+        padding: 2px 4px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    &-pill {
+        border-radius: 10rem;
+    }
+
+    &-primary {
+        color: $neutral-00;
+        background-color: $primary-100;
+    }
+
+    &-secondary {
+        color: $primary-dark-100;
+        background-color: $secondary-100;
+    }
+
+    &-success {
+        color: $neutral-00;
+        background-color: $success-100;
+    }
+
+    &-danger {
+        color: $neutral-00;
+        background-color: $error-100;
+    }
+
+    &-warning {
+        color: $neutral-05;
+        background-color: $warning-120;
+    }
+
+    &-info {
+        color: $neutral-00;
+        background-color: $info-100;
+    }
+
+    &-light {
+        color: $neutral-70;
+        background-color: $neutral-10;
+    }
+
+    &-dark {
+        color: $neutral-00;
+        background-color: $neutral-70;
+    }
+}

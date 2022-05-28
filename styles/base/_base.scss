@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+button, input:focus {
+  outline: none !important;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#content-wrapper {
+  background-color: #F8F9FA;
+}
+
+/* dividers */
+.vertical-line {
+  border-left: 1px solid $neutral-25;
+  height: 24px;
+}
+
+hr, .horizontal-line {
+  border-top: 1px solid $neutral-25;
+}
+
+/* Cursor */
+.cursor-grabbing {
+  cursor: grabbing;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+/* Elevations and Shadows */
+.shadow-light {
+  &-100 { box-shadow: $shadow-light-100; }
+  &-80 { box-shadow: $shadow-light-80; }
+  &-60 { box-shadow: $shadow-light-60; }
+  &-40 { box-shadow: $shadow-light-40; }
+  &-20 { box-shadow: $shadow-light-20; }
+}
+
+/* ScrollBar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f16b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $neutral-25;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}

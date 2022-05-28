@@ -1,0 +1,38 @@
+.nav-tabs {
+    border-bottom: 1px solid $primary-20;
+
+    & .nav-item {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: $primary-dark-100;
+        cursor: pointer;
+    }
+
+    & .nav-link {
+        display: block;
+        padding: 4px 16px;
+        border-bottom: 3px solid transparent;
+        color: unset;
+
+        &.active, .nav-tabs .nav-item.show .nav-link {
+            color: $primary-100;
+            background-color: transparent;
+            border-color: transparent !important;
+            border-bottom: 3px solid $primary-100 !important;
+        }
+
+        &.disabled {
+            color: $primary-dark-100;
+            background-color: transparent;
+            border-color: transparent !important;
+            opacity: 0.4;
+
+            &.active {
+                color: $primary-100;
+                border-bottom: 3px solid $primary-100 !important;
+                opacity: 0.4;
+            }
+        }
+    }
+}

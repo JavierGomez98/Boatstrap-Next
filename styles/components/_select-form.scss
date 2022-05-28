@@ -1,0 +1,100 @@
+.v-form-select {
+    width: inherit;
+    position: relative;
+    height: 43px;
+    font-size: 14px;
+    line-height: 17px;
+
+    &__input {
+        position: relative;
+        width: 100%;
+        background: transparent;
+        padding: 11px 35px 11px 12px;
+        background-image: none;
+        outline: none;
+        border: 2px solid $primary-dark-15;
+        border-radius: 10px;
+        z-index: 2;
+        text-align: left;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+
+        &:focus {
+            border-color: $primary-100;
+
+            &+.select-focus::after {
+                border-color: $primary-100;
+            }
+        }
+
+        &:active,
+        &:hover {
+            border-color: $primary-dark-100 !important;
+
+            &+.select-focus::after {
+                border-color: $primary-dark-100 !important;
+            }
+        }
+
+        &:active {
+            &~ul {
+                max-height: 300px;
+                transition: max-height 0.1s;
+            }
+        }
+    }
+
+    & .select-focus {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        cursor: pointer;
+
+        &::after {
+            content: '';
+            position: absolute;
+            z-index: 1;
+            right: 18px;
+            top: calc(50% - 7px);
+            width: 9px;
+            height: 9px;
+            display: block;
+            border-left: 2px solid #484848;
+            border-bottom: 2px solid #484848;
+            transform: rotate(-45deg);
+            transition: all 0.25s ease;
+        }
+    }
+
+    & ul {
+        display: none;
+        position: absolute;
+        top: 44px;
+        right: 0;
+        left: 0;
+        margin-top: 2px;
+        max-height: 300px;
+        z-index: 10;
+        overflow: auto;
+        border-radius: 5px;
+        background-color: $neutral-00;
+        box-shadow: $shadow-light-100;
+        color: $neutral-70;
+
+        & li {
+            list-style-type: none;
+            padding: 16px 10px;
+            border-bottom: 0.5px solid #E6E6E6;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $primary-dark-80;
+                color: $neutral-00;
+            }
+        }
+    }
+}

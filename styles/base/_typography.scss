@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900');
+
+html, body {
+  font-family: $primary-font-family !important;
+  color: $neutral-70;
+  font-size: 14px;
+}
+
+h1, .h1, h2, .h2, h4, .h4, h6, .h6 {
+  font-weight: bold !important;
+  margin: 0px;
+}
+
+h3, .h3, h5, .h5 {
+  font-weight: normal !important;
+  margin: 0px;
+}
+
+h1, .h1 { font-size: 36px !important; }
+
+h2, .h2 { font-size: 32px !important; }
+
+h3, .h3 { font-size: 24px !important; }
+
+h4, .h4 { font-size: 20px !important; }
+
+h5, .h5 { font-size: 18px !important; }
+
+h6, .h6 { font-size: 16px !important; }
+
+.subtitle {
+  font-style: normal;
+  color: $primary-dark-100;
+  font-size: 16px;
+  line-height: 22px;
+
+  &1 {
+    font-weight: 500;
+  }
+}
+
+
+.highlight-paragraph { color: $primary-dark-100; }
+
+p { font-size: 14px !important; }
+
+::placeholder { color: $neutral-50 !important; }
+
+a {
+  color: $info-100;
+
+  &:hover {
+    color: $info-80;
+  }
+}
+
+small, .small { font-size: 12px !important; }
+
+.regular { font-weight: normal !important; }
+
+.p-medium { font-weight: 500 !important; }
+
+.bold { font-weight: bold !important; }
+
+.italic { font-style: italic !important; }
+
+.bold-italic {
+  font-weight: bold !important;
+  font-style: italic !important;
+}
+
+.underline { text-decoration: underline !important; }
