@@ -20,6 +20,8 @@ const Layout: FunctionComponent<BaseLayoutProps> = ({ children }) => {
             { children }
           </div>
         </main>
+        <footer className="footer">
+        </footer>
       </div>
     </div>
   )

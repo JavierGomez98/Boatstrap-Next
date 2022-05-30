@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import styles from './Navbar.module.scss'
+import styles from './_navbar.module.scss'
 import migranteImg from '@svg/migrante.svg'
 
 const Navbar = () => {
   return (
-    <nav className={`${styles.header} bg-primary-100 flex`}>
+    <nav className={styles.header}>
       <div className="flex-center">
         <Link href="/">
           <a><Image src={migranteImg} alt="Migrante" height={22} width={113}></Image></a>

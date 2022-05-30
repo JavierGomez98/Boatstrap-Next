@@ -1,5 +1,7 @@
 .header {
   padding: 15px 28px;
+  display: flex;
+  background-color: var(--primary)
 }
 
 .link-header {
@@ -12,8 +14,8 @@
     border-radius: 5px;
     font-size: 0.85rem;
     &:hover {
-      color: #050505;
-      background-color: #C1C1C1;
+      color: var(--neutral-100);
+      background-color: var(--neutral-25);
     }
   }
 
